@@ -10,10 +10,11 @@ The IPACS simulation model is a high-level computer model of the discharge-to-as
 ## Documentation
 Please read the files in the *Documentation* folder to understand how to use, parameterise and run the model.
 
-The model is reported using STRESS-DES Reporting Guidelines (Monks et al. 2019)
+The model is reported using [STRESS-DES Reporting Guidelines](https://doi.org/10.1080/17477778.2018.1442155) (Monks et al. 2019)
+
 
 ## Citing the model
-If you use the IPACS model for research, reporting, education or any other reason, please cite it using details on Zenodo.
+If you use the IPACS model for research, reporting, education or any other reason, please cite it using details on Zenodo
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7845908.svg)](https://doi.org/10.5281/zenodo.7845908)
 
 ```
@@ -118,7 +119,8 @@ Version history is available [here](https://github.com/AliHarp/IPACS_MODEL)
 
 This [repository](https://github.com/amyheather) contains the models, with re-coding and bug fixes, with many thanks to **Amy Heather** [![ORCID: Heather](https://img.shields.io/badge/ORCID-0000--0002--6596--3479-brightgreen)](https://orcid.org/0000-0002-6596-3479)
 
-With additional thanks to **Dr Thomas Monks**. 
+With additional thanks to **Dr Thomas Monks**
+[![ORCID: Monks](https://img.shields.io/badge/ORCID-0000--0003--2631--4481-brightgreen)](https://orcid.org/0000-0003-2631-4481) 
 
 ## Contact
 For questions or feedback, please contact:
