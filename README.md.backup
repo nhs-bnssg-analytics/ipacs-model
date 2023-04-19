@@ -12,12 +12,35 @@ Please read the files in the *Documentation* folder to understand how to use, pa
 
 The model is reported using STRESS-DES Reporting Guidelines (Monks et al. 2019)
 
-## Citation
+## Citing the model
 If you use the IPACS model for research, reporting, education or any other reason, please cite it using details on Zenodo.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7845908.svg)](https://doi.org/10.5281/zenodo.7845908)
+
+```
+@software{alison_harper_2023_7845908,
+  author       = {Alison Harper and
+                  Zehra Onen Dumlu and
+                  Paul Forte and
+                  Christos Vasilakis and
+                  Martin Pitt and
+                  Richard Wood},
+  title        = {{Code and material for IPACS Model - Improving the 
+                   Flow of Patients between Acute, Community and
+                   Social Care}},
+  month        = apr,
+  year         = 2023,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.7845908},
+  url          = {https://doi.org/10.5281/zenodo.7845908}
+}
+```
+
+
 
 
 ## License  
-[GNU-3 license](https://choosealicense.com/licenses/gpl-3.0/)
+[GPL-3 license](https://choosealicense.com/licenses/gpl-3.0/)
 
 Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. 
 ## Repo overview
@@ -84,6 +107,8 @@ An application of the discrete-time simulation model showing that total costs ac
 Discrete Time Simulation and Scenario Analysis**](https://doi.org/10.36819/SW23.013)
 
 This paper reports on the development and deployment of the versatile IPACS simulation tool for modelling both the home-based and bedded community step-down pathways, known as ‘Discharge to Assess’  in England’s NHS. Developed in open source ‘R’, the tool offers scalable solutions for exploring different scenarios relating to demand, capacity and patient length of stay. 
+
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7845995.svg)](https://doi.org/10.5281/zenodo.7845995) 
 
 
 ## Model version history
