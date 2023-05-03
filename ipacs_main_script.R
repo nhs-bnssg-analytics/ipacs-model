@@ -17,7 +17,7 @@ wd <- setwd("/home/set_working_directory_here")
 input_filename <- "IPACS_params.xlsx"
 
 # Set manual parameters
-nruns <- as.integer(50) # number of runs for each simulation
+nruns <- as.integer(3) # number of runs for each simulation
 sd_isr <- 0.5 # initial service/visit rate
 sd_esr <- 0.5 # end service rate/final visit rate
 temp_seed <- 1
@@ -28,6 +28,13 @@ warmup <- 0 #leave as zero unless recoding to not use initial conditions
 # Use 2 if mean and std dev are available
 # See set_up.R for the difference between the methods
 est_method <- 1
+
+if (!file.exists("outputs")){
+  dir.create(file.path(wd, "outputs"))
+  dir.create(file.path(wd, "outputs/stochastic_data"))
+  dir.create(file.path(wd, "outputs/report_data"))
+  dir.create(file.path(wd, "outputs/report"))
+}
 
 # Run model - P1 (visit) then P2 and P3 (bed) simulation - and print time taken
 start_time <- Sys.time()
