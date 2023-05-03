@@ -27,7 +27,7 @@ warmup <- 0 #leave as zero unless recoding to not use initial conditions
 # Use 1 if mean and median are available, but not std dev
 # Use 2 if mean and std dev are available
 # See set_up.R for the difference between the methods
-est_method <- 2
+est_method <- 1
 
 # Run model - P1 (visit) then P2 and P3 (bed) simulation - and print time taken
 start_time <- Sys.time()
